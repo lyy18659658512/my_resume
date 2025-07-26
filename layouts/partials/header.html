@@ -1,0 +1,19 @@
+{{ with .Data.features.about }}
+	<div class="header-flex">
+		{{ if $.Header.avatar }}<img class="avatar" src="{{ $.Header.avatar }}">{{ end }}
+		<div class="title">
+			<h1 class="name">{{ .name }}</h1>
+			{{ if $.Header.tagline }}<h2 class="tagline">{{ .tagline }}</h2>{{end}}
+			{{ if .phone }}<div class="contact-phone"><i class="fas fa-phone"></i> {{ .phone }}</div>{{ end }}
+			{{ if .email }}<div class="contact-email"><i class="fas fa-envelope"></i> {{ .email }}</div>{{ end }}
+			{{ if $.Header.avatar }}
+				{{ partial "_header_links" (dict "Header" $.Header "Data" $.Data "useFontAwesome" $.useFontAwesome "Separator" " | ") }}
+			{{ end }}
+		</div>
+	</div>
+{{ end }}
+{{ if not .Header.avatar }}
+	<div class="title">
+	{{ partial "_header_links" (dict "Header" .Header "Data" .Data "useFontAwesome" .useFontAwesome "Separator" "<br>") }}
+	</div>
+{{ end }}
