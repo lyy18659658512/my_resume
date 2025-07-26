@@ -1,8 +1,10 @@
 about:
   name: 李毅宇
-  tagline: Data Scientist
+  tagline: 松霖家居研发部/建模工程师 
   phone: "18659658512"
   email: 452255714@qq.com
+  age: 35
+  marital: 已婚
   links:
     - title: /in/mertbakir
       url: https://tr.linkedin.com/in/mertbakir
@@ -43,14 +45,14 @@ interests:
   - Optimization Problems
 
 languages:
-  - name: Turkish
-    level: Native
+  - name: 英语
+    level: CET-4
 
-  - name: English
-    level: Professional
-    certificates:
-      - "YDS: 86.25 - 2018"
-      - "TOEFL: 109 - 2021"
+#  - name: English
+#    level: Professional
+#    certificates:
+#      - "YDS: 86.25 - 2018"
+#     - "TOEFL: 109 - 2021"
 
 # This will use the default widget: "details-list"
 awards:

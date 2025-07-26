@@ -4,8 +4,10 @@
 		<div class="title">
 			<h1 class="name">{{ .name }}</h1>
 			{{ if $.Header.tagline }}<h2 class="tagline">{{ .tagline }}</h2>{{end}}
-			{{ if .phone }}<div class="contact-phone"><i class="fas fa-phone"></i> {{ .phone }}</div>{{ end }}
-			{{ if .email }}<div class="contact-email"><i class="fas fa-envelope"></i> {{ .email }}</div>{{ end }}
+			{{ if .phone }}<div class="contact-phone"><i class="fas fa-phone"></i> 电话号码：{{ .phone }}</div>{{ end }}
+			{{ if .email }}<div class="contact-email"><i class="fas fa-envelope"></i> 邮箱地址：{{ .email }}</div>{{ end }}
+			{{ if .age }}<div class="contact-age"><i class="fas fa-user"></i> 年龄：{{ .age }}</div>{{ end }}
+			{{ if .marital }}<div class="contact-marital"><i class="fas fa-heart"></i> 婚姻状况：{{ .marital }}</div>{{ end }}
 			{{ if $.Header.avatar }}
 				{{ partial "_header_links" (dict "Header" $.Header "Data" $.Data "useFontAwesome" $.useFontAwesome "Separator" " | ") }}
 			{{ end }}

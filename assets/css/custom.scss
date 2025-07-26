@@ -1,3 +1,57 @@
+// 蓝色系商务风格自定义样式
+body {
+  background: #f4f8fb;
+  color: #222;
+}
+
+.header-flex {
+  background: #e3f2fd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  padding: 24px 32px 16px 32px;
+  margin-bottom: 24px;
+  min-height: 120px;
+  min-width: 300px;
+}
+
+.title h1.name {
+  color: #1976d2;
+  font-weight: 700;
+}
+.title h2.tagline {
+  color: #1565c0;
+  font-weight: 400;
+}
+.contact-phone, .contact-email, .contact-age, .contact-marital {
+  color: #1976d2;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+.contact-phone i, .contact-email i, .contact-age i, .contact-marital i {
+  color: #1565c0;
+  margin-right: 4px;
+}
+
+.section-title {
+  color: #1976d2;
+  border-left: 4px solid #1976d2;
+  background: #e3f2fd;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+
+a, .fa-linkedin, .fa-github, .fa-gitlab {
+  color: #1976d2 !important;
+}
+a:hover {
+  color: #0d47a1 !important;
+}
+
+.avatar {
+  border: 3px solid #1976d2;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.12);
+}
 .title .name, h1.name {
   font-size: 2.5rem !important;
   font-weight: bold;
@@ -7,6 +61,8 @@
 .header-flex {
   display: flex;
   align-items: center;
+  width: 100%;
+  min-width: 0;
 }
 .avatar {
   width: 100px;
@@ -18,6 +74,7 @@
 }
 .title {
   margin-left: 20px;
+  flex: 1;
 }
 // 默认文本颜色变量，供后续使用
 $text-color: #333;

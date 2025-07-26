@@ -58,7 +58,7 @@ params:
     links: false
   side:
     - feature: languages
-      title: 语言
+      title: 语言能力
     - feature: skills
       title: 技能
       widget: word-list
@@ -78,16 +78,16 @@ params:
     - features:
         - feature: experience
           title: 工作经历（续）
-        - feature: projects
-          collection: projects
-        - feature: publications
-          style: IEEE # IEEE, APA, else
-        - feature: awards
-        - feature: certificates
-          title: Certifications
-        - feature: interests
-          widget: word-list
-          style: list
+        #- feature: projects
+        #  title: 项目经历
+        #  collection: projects
+        #- feature: publications
+        #  title: 发表论文
+        #  style: IEEE # IEEE, APA, else
+        #- feature: awards
+        #  title: 荣誉
+        #- feature: certificates
+        #  title: 证书
   experience:
     tools: 
       show: false

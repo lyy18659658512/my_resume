@@ -1,33 +1,40 @@
-- company: Company 1
+- company: 松霖家居有限公司
   roles:
-    - role: Data Scientist
+    - role: 建模工程师
       details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-        Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
-        Nam suscipit nisi a bibendum lacinia. Donec aliquet, nibh dignissim placerat efficit
-      date: 10.2020 -  Present
+        1、负责WCC数据库的建模工作;
+        
+        2、对接前端三维家酷家乐等设计软件;
+        
+        3、对接后端ERP生产管理系统;
+      date: 2019.09 -  至今
 
-- company: Company 2
+- company: 金牌厨柜家居科技股份有限公司
   page: 1
   roles: 
-    - role: Senior Software Developer
-      tools: SQL, Flink, Kafka
+    - role: 技术工程师（建模）
       details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-        Aenean nec volutpat arcu. Maecenas quis tempus risus.
+        1、负责WCC数据库的建模工作;
+        
+        2、对接前端三维家酷家乐等设计软件;
+        
+        3、对接后端ERP生产管理系统;
+
       date: 06.2019 - 10.2020
     
-    - role: Junior Software Developer
-      tools: HTML, PHP, CSS
+    - role: 技术工程师（工艺）
       date: 10.2018 - 06.2019
       details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-        Aenean nec volutpat arcu. Maecenas quis tempus risus.
+        1、负责工厂厨柜门板工艺打样、验证等相关工作;
+        
+        2、制定生产工艺规范,编写工艺文件;
+        
+        3、对相关人员进行工艺培训;
 
-- company: Company 1
-  page: 2
+- company: 宏发金越电器有限公司
+  page: 1
   roles:
-    - role: Junior Software Developer
+    - role: 助理工程师
       tools: C#, Python, Postgresql
       details: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
