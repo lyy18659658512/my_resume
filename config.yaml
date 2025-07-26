@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://lyy18659658512.github.io/my_resume/"
 languageCode: "en-us"
 title: "Resume | MERT BAKIR"
 disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
