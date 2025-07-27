@@ -55,38 +55,31 @@ params:
     contact: false # 控制是否显示联系方式（phone、email）
     tagline: true
     links: false
-  side:
-    - feature: languages
-      title: 语言能力
-    - feature: skills
-      title: 技能
-      widget: word-list
-      style: compact # list, compact, title-list
-    - feature: education
-      title: 教育背景
-    - feature: interests
-      title: 兴趣爱好
-      widget: word-list
-      style: list
   pages:
-    - features:
+    - side:
+        #- feature: languages
+        #  title: 语言能力
+        - feature: skills
+          title: 技能证书
+          widget: word-list
+          style: title-list # list, compact, title-list
+        - feature: education
+          title: 教育背景
+        - feature: awards
+          widget: word-list        # 新增
+          title: 获奖经历
+          style: list
+        - feature: interests
+          title: 兴趣爱好
+          widget: word-list
+          style: list
+
+      features:
         - feature: about
-          title: 关于我
+          title: 职业概述
         - feature: experience
           title: 工作经历
-    - features:
-        - feature: experience
-          title: 工作经历（续）
-        #- feature: projects
-        #  title: 项目经历
-        #  collection: projects
-        #- feature: publications
-        #  title: 发表论文
-        #  style: IEEE # IEEE, APA, else
-        #- feature: awards
-        #  title: 荣誉
-        #- feature: certificates
-        #  title: 证书
+    # 只保留一个页面，防止多页渲染
   experience:
     tools: 
       show: false

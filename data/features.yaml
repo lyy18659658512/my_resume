@@ -16,20 +16,32 @@ about:
       url: https://github.com/mertbakir
       icon: fab fa-github
   details: |
-    熟悉定制行业工艺,兴趣广泛,善于学习，热爱技术，擅长使用各种工具进行数据分析和建模工作。具有良好的团队协作能力和沟通能力，能够有效地与不同部门协作完成项目。
+    > 8年定制家居行业技术经验,专注wcc参数化建模。  
+    > 擅长跨平台数据对接(WCC/三维家/酷家乐)及生产系统集成，推动前后端一体化流程落地。  
+    
 
 
 skills:
-  - groupName: 机电二级建造师
+  - groupName: 专业工具： 
     list:
+      - WCC/imos/建模
+      - Cutirite优化
+      - 三维家/酷家乐对接
+      - Python编程语言
       #- Grafana - Kibana - PowerBI
       #- InfluxDB - TICK Stack
 
-  - groupName: 初中数学教师资格证
+  - groupName: 技术资质：
     list:
-      #- Python - R - SQL
-      #- Excel - Minitab - SPSS
-      #- GAMS - PuLP - OR Tools
+    - 机电二级建造师
+    - 初中数学教师资格证
+
+  - groupName: 语言：
+    list:
+    - 英语(CET-4)
+
+      
+      
 
 
 
@@ -37,11 +49,11 @@ interests:
   - 编程
   - 象棋
   - 阅读
-  - 足球
+
 
 languages:
-  - name: 英语
-    level: CET-4
+  - name: 
+    level: 
 
 #  - name: English
 #    level: Professional
@@ -51,21 +63,8 @@ languages:
 
 # 这里会使用默认的组件："details-list"
 awards:
-  - title: "Tübitak - Graduation Project"
-    date: "2017"
-    subtitle: "A Decision Support System for 3D Cutting Problem"
-    #details: |
-    #   - 如果需要可以在这里添加更多内容。
-    #   - 或者直接注释/删除该字段。
-    links:
-      - title: example
-        url: https://mertbakir.gitlab.io
-        icon: fas fa-bolt
-        prefix: "This is an " # 如果你想保留末尾的空格，请使用引号。
-      - title: second link.
-        url: https://esdfdsfdsf
-        icon: "-" # 如果不想显示图标，可以随便填点内容
-        prefix: "omg"
+  - 2021年荣获松霖家居年度优秀员工表彰
+  - 在校期间多次获得奖学金
 
 certificates:
   - title: "Supervised Learning: Regression"

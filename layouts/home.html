@@ -21,37 +21,33 @@
 	<title itemprop="name">{{ .Site.Title }}</title>
 </head>
 
+
 <body>
 	{{ $.Scratch.Set "index" 0 }}
 	{{ range .Site.Params.pages }}
-	{{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
-	<main class="paper">
-		<div class="grid">
-			<header class="flex-row">
-				{{ partial "header" (dict "Header" $.Site.Params.header "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
-			</header>
-
-			{{- if eq ($.Scratch.Get "index") 1 -}}
-			<div class="left-column">
-				{{ range .features }}
-					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "Params" $.Site.Params "Page" ($.Scratch.Get "index")) }}
+		{{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
+		<main class="paper">
+			<div class="grid{{ if ne ($.Scratch.Get "index") 1 }} no-header{{ end }}">
+				{{ if eq ($.Scratch.Get "index") 1 }}
+					<header class="flex-row">
+						{{ partial "header" (dict "Header" $.Site.Params.header "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+					</header>
 				{{ end }}
-			</div>
 
-			<div class="right-column">
-				{{ range $.Site.Params.side }}
-					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "Params" $.Site.Params "Page" ($.Scratch.Get "index")) }}
-				{{ end }}
+				<div class="left-column">
+					{{ range .features }}
+						{{ partial "section" (dict "Feature" . "Data" $.Site.Data "Params" $.Site.Params "Page" ($.Scratch.Get "index")) }}
+					{{ end }}
+				</div>
+
+				<div class="right-column">
+					{{ $side := .side | default slice }}
+					{{ range $side }}
+						{{ partial "section" (dict "Feature" . "Data" $.Site.Data "Params" $.Site.Params "Page" ($.Scratch.Get "index")) }}
+					{{ end }}
+				</div>
 			</div>
-			{{- else -}}
-			<div class="single-column">
-				{{- range .features -}}
-					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "Params" $.Site.Params "Page" ($.Scratch.Get "index")) }}
-				{{- end -}}
-			</div>
-			{{- end -}}
-		</div>
-	</main>
+		</main>
 	{{ end }}
 
 	{{ if .Site.Params.footer.show }}

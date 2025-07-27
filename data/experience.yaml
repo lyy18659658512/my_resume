@@ -1,43 +1,53 @@
 - company: 松霖家居有限公司
+  show: true
+  page: 1
   roles:
     - role: 建模工程师
       details: |
-        1、负责WCC数据库的建模工作;
+        1、根据产品研发部门技术文件,设计并构建公司WCC厨柜、全屋数据库,定义产品数据变量体系;
         
-        2、对接前端三维家酷家乐等设计软件;
+        2、根据WCC与前端三维家、酷家乐设计库对接测试问题,优化WCC数据库,提高对接效率和准确性;
         
-        3、对接后端ERP生产管理系统;
+        3、日常维护WCC数据库,对接拆单生产系统,处理订单异常问题;
       date: 2019.09 -  至今
 
 - company: 金牌厨柜家居科技股份有限公司
+  show: true
   page: 1
   roles: 
-    - role: 技术工程师（建模）
+    - role: 技术工程师
       details: |
-        1、负责WCC数据库的建模工作;
+        1、负责工厂厨柜门板工艺打样、验证等相关工作,编写烤漆、吸塑门板相关工艺技术文件、对相关人员进行工艺培训;
         
-        2、对接前端三维家酷家乐等设计软件;
-        
-        3、对接后端ERP生产管理系统;
+        2、根据研发新品设计规范、工厂工艺技术文件将产品导入imos厨柜数据库,维护ERP生产管理系统中的产品数据;
 
-      date: 06.2019 - 10.2020
-    
-    - role: 技术工程师（工艺）
-      date: 10.2018 - 06.2019
+        3、分析厨柜柜体板生产数据,维护厨柜柜体板标准件数据库,提高订单标准件占有率,降低生产周期;
+
+        4、运用cutirite软件并单生产,提高板材利用率,降低生产成本,优化板件标签,提高板件流转效率;
+
+        5、处理订单异常,优化imos数据库,使得前后端一体化生产流程更加高效,数据对接更加准确;
+      date: 2017.09 - 2019.09
+
+- company: 厦门精一诚金属制品有限公司
+  show: false
+  page: 2
+  roles:
+    - role: 工艺员
       details: |
-        1、负责工厂厨柜门板工艺打样、验证等相关工作;
-        
-        2、制定生产工艺规范,编写工艺文件;
-        
-        3、对相关人员进行工艺培训;
+        1.做工艺流程卡，解决生产异常，改善工艺流程；
+
+        2.设计简易工装治具保证生产顺利进行
+      date: 2016.08 - 2017.09
 
 - company: 宏发金越电器有限公司
-  page: 1
+  show: false
+  page: 2
   roles:
     - role: 助理工程师
-      tools: C#, Python, Postgresql
       details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-        Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
-        Nam suscipit nisi a bibendum lacinia. Donec aliquet, nibh dignissim placerat efficit
-      date: 2017 - 2018
+        1、维护保养自动分选设备,编写设备操作指导卡;
+
+        2、分选工装模具点检,保证筛选出来的产品尺寸符合要求;
+
+        3、解决设备振动控制器、气缸、传感器常见的故障;
+      date: 2014.09 - 2016.05

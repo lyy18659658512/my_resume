@@ -1,6 +1,3 @@
-[submodule "themes/hugo-resume"]
-	path = themes/hugo-resume
-	url = https://github.com/eddiewebb/hugo-resume.git
-[submodule "themes/almeida-cv"]
-	path = themes/almeida-cv
-	url = https://github.com/ineesalmeida/almeida-cv.git
+[submodule "themes/resume-a4"]
+	path = themes/resume-a4
+	url = https://gitlab.com/mertbakir/resume-a4.git
