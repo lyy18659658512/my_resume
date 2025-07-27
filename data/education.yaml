@@ -1,11 +1,11 @@
 - name: 机械设计制造及其自动化/本科
   university: 厦门大学嘉庚学院
-  #location: Istanbul, TR
-  #more: with Thesis # Optional field, if you want to add a non-standard line.
-  #link: https://... # Optional field, include a link to your project.
+  location: Istanbul, TR
+  #more: with Thesis # 可选字段，如果你想添加一行自定义内容。
+  #link: https://... # 可选字段，填写你的项目链接。
   date: 2008- 2012
   #gpa: 3.71 / 4.00
   #details: >
-  #  Include details if you like to... 
+  #  如果需要可以在这里补充详细说明…
 
  

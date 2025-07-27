@@ -16,33 +16,28 @@ about:
       url: https://github.com/mertbakir
       icon: fab fa-github
   details: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-    Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta.
-
-    Nam suscipit nisi a bibendum lacinia.
+    熟悉定制行业工艺,兴趣广泛,善于学习，热爱技术，擅长使用各种工具进行数据分析和建模工作。具有良好的团队协作能力和沟通能力，能够有效地与不同部门协作完成项目。
 
 
 skills:
-  - groupName: Databases & Visualization
+  - groupName: 机电二级建造师
     list:
-      - Grafana - Kibana - PowerBI
-      - InfluxDB - TICK Stack
+      #- Grafana - Kibana - PowerBI
+      #- InfluxDB - TICK Stack
 
-  - groupName: Data Analysis & Analytics
+  - groupName: 初中数学教师资格证
     list:
-      - Python - R - SQL
-      - Excel - Minitab - SPSS
-      - GAMS - PuLP - OR Tools
+      #- Python - R - SQL
+      #- Excel - Minitab - SPSS
+      #- GAMS - PuLP - OR Tools
 
-  - groupName: Programming & Systems
-    list:
-      - C# - Git - Docker - NGINX
-      - Linux - CentOS RHEL
+
 
 interests:
-  - Data Science
-  - AI Applications
-  - Optimization Problems
+  - 编程
+  - 象棋
+  - 阅读
+  - 足球
 
 languages:
   - name: 英语
@@ -54,29 +49,29 @@ languages:
 #      - "YDS: 86.25 - 2018"
 #     - "TOEFL: 109 - 2021"
 
-# This will use the default widget: "details-list"
+# 这里会使用默认的组件："details-list"
 awards:
   - title: "Tübitak - Graduation Project"
     date: "2017"
     subtitle: "A Decision Support System for 3D Cutting Problem"
     #details: |
-    #   - add more here if you like to.
-    #   - or just comment out/delete the field.
+    #   - 如果需要可以在这里添加更多内容。
+    #   - 或者直接注释/删除该字段。
     links:
       - title: example
         url: https://mertbakir.gitlab.io
         icon: fas fa-bolt
-        prefix: "This is an " # use quotation marks if you want to pass the tailing space.
+        prefix: "This is an " # 如果你想保留末尾的空格，请使用引号。
       - title: second link.
         url: https://esdfdsfdsf
-        icon: "-" # you can get rid of the icon by entering dummy text
+        icon: "-" # 如果不想显示图标，可以随便填点内容
         prefix: "omg"
 
 certificates:
   - title: "Supervised Learning: Regression"
     subtitle: Coursera
     date: "2020"
-    link: https://xkcd.com/605/ # This link will be on title level.
+    link: https://xkcd.com/605/ # 这个链接会显示在标题上。
 
   - title: "Supervised Learning: Classification"
     subtitle: Coursera

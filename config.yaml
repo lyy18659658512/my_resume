@@ -4,46 +4,45 @@ title: "Resume | MERT BAKIR"
 disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
 theme: "resume-a4"
 
-# Construct main column, side column and additional page from features
-# Every column and page may include any features. Some features are
-# created using generic widgets and you can add easily new features,
-# as long as an existing widget can render it as you like.
+
+# 主列、侧栏和附加页面均由 features 构建
+# 每个列和页面都可以包含任意 feature。部分 feature 使用通用组件渲染，你也可以轻松添加新 feature，只要有对应的组件即可。
 #
-# Common keys:
-#   feature: name of the feature. For generic features, this is also the root key in the yaml file.
-#   title: string rendered as the header of the element. Can be disabled with an empty string.
-#   collection: the base name of the yaml file containing the data. Defaults to "features".
-#   widget: `layout/partials/section-<widget>.html` used to render this element.
+# 常用字段：
+#   feature: 功能名称。对于通用 feature，这也是 yaml 文件中的根 key。
+#   title: 该元素的标题字符串。设为空字符串可禁用标题。
+#   collection: 数据来源的 yaml 文件名，默认为 "features"。
+#   widget: 用于渲染该元素的组件路径，如 `layout/partials/section-<widget>.html`。
 #
-# Common widgets:
+# 常用组件：
 #
 #   details-list:
-#     Used by default, if section-<feature>.html doesn't exists.
+#     默认使用（如果没有 section-<feature>.html 文件）。
 #
-#     Expects data in format (in yaml file):
-#       title: the title string
-#       subtitle: string rendered under title. E.g., company for projects, certificate authority etc.
-#       date: date string, e.g., when a certificate was given
-#       details: a text in markdown.
-#       link: url where the title will link to
-#       links: list of links rendered as a bullet list below details
-#         prefix: a string before the link
-#         title: a string inside the link
-#         url: the destination of the link
-#         icon: the icon string, e.g., "fas fa-cloud". rendered inside link and after title.
+#     数据格式（在 yaml 文件中）：
+#       title: 标题字符串
+#       subtitle: 副标题，如公司/证书机构等
+#       date: 日期字符串，如证书颁发时间
+#       details: 详细描述，支持 markdown
+#       link: 标题的链接地址
+#       links: 详情下方的链接列表
+#         prefix: 链接前缀
+#         title: 链接文本
+#         url: 链接目标地址
+#         icon: 图标字符串，如 "fas fa-cloud"，显示在链接和标题后
 #
 #   word-list:
-#     Handy for skills and interests etc.
+#     适合技能、兴趣等列表
 #
-#     Additional keys:
-#       style: Rendering style for word list. One of: list, compact, or title-list
+#     附加字段：
+#       style: 列表渲染风格，可选 list、compact、title-list
 #
-#     Expects data in format (in yaml file):
-#       A list of strings, if style is "list", or
+#     数据格式（在 yaml 文件中）：
+#       如果 style 为 "list"，则为字符串列表
 #
-#       A list of:
-#         groupName: title of the group
-#         list: list of strings rendered under the group
+#       或如下结构：
+#         groupName: 分组标题
+#         list: 分组下的字符串列表
 
 params:
   useFontAwesome: true
@@ -98,7 +97,7 @@ params:
     location:
       show: false
     details:
-      show: false
+      show: false     
     namePrimary: false
   publications:
     useFontAwesome: false
@@ -108,7 +107,7 @@ params:
     externalLinkIcon: false
         
   footer:
-    show: true
+    show: false
     credits: true
     footnote: >-
       You can print this resume in A4 size or save as pdf. | Last update on 2020-09-01.
