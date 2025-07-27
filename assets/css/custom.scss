@@ -128,24 +128,18 @@ header .title h1 {
     max-height: none !important;
     overflow: visible !important;
   }
-  main, .paper, .grid, .container, .row, .columns, .left-column, .right-column {
+  .paper, main.paper {
     margin: 0 !important;
-    padding: 0 !important;
     box-shadow: none !important;
     background: #fff !important;
     width: auto !important;
     min-height: 0 !important;
     max-height: none !important;
     overflow: visible !important;
-    page-break-after: avoid !important;
-    page-break-before: avoid !important;
-    page-break-inside: avoid !important;
-    break-after: avoid !important;
-    break-before: avoid !important;
-    break-inside: avoid !important;
+    /* 不加 page-break-after/before/inside/avoid 和 break-* */
   }
-  /* 彻底隐藏分页符和空白页 */
-  .page-break, .break {
+  /* 彻底隐藏分页符和空白页、footer、clearfix、空白块 */
+  .page-break, .break, footer, .clearfix, .empty, .blank {
     display: none !important;
     visibility: hidden !important;
     height: 0 !important;
